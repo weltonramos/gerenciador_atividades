@@ -1,0 +1,40 @@
+header {
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+    background-color: red;
+}
+
+.barra-navegacao {
+    align-items: end;
+    padding: 5px;
+    display: inline;
+    background-color: yellow;
+}
+
+.banner1>h1 {
+    color: red;
+}
+
+.banner1>input {
+    border: none;
+    background-color: #DA5F17;
+    color: #FFFFFF;
+}
+
+.banner2 > h1 {
+    color: #DA5F17;
+    text-align: justify;
+}
+
+.banner2 > p {
+    text-align: justify;
+}
+
+.banner3 > 
+
+/* =========================== MOBILE ================================== */
+
+@media screen and (max-width:1440px) {}
