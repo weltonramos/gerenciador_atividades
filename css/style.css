@@ -24,16 +24,45 @@ header {
     color: #FFFFFF;
 }
 
-.banner2 > h1 {
+.banner2>h1 {
     color: #DA5F17;
     text-align: justify;
 }
 
-.banner2 > p {
+.banner2>p {
     text-align: justify;
 }
 
-.banner3 > 
+.banner3>input {
+    border: none;
+    background-color: #DA5F17;
+    color: #FFFFFF;
+}
+
+.banner4 {
+    background-color: #DA5F17;
+}
+
+.banner4>div {
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+
+.banner5>h1 {
+    color: #DA5F17;
+}
+
+.banner5>h2 {
+    color: #DA5F17;
+}
+
+hr {
+    background: #DA5F17;
+}
+
+footer {
+    text-align: center;
+}
 
 /* =========================== MOBILE ================================== */
 
