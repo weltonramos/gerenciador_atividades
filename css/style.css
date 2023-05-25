@@ -1,21 +1,26 @@
+* {
+    margin: 0 auto;
+}
+
 header {
     display: flex;
 }
 
 .logo {
+    margin-left: 5%;
     width: 200px;
-    background-color: red;
 }
 
 .barra-navegacao {
     align-items: end;
     padding: 5px;
     display: inline;
-    background-color: yellow;
+    text-decoration: none;
+
 }
 
 .banner1>h1 {
-    color: red;
+    
 }
 
 .banner1>input {
@@ -58,6 +63,7 @@ header {
 
 hr {
     background: #DA5F17;
+    border: none;
 }
 
 footer {
