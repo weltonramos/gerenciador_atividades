@@ -8,40 +8,75 @@ header {
 
 .logo {
     margin-left: 5%;
-    width: 200px;
+    width: 30%;
 }
 
-.barra-navegacao {
+.barra-navegacao>a {
     align-items: end;
-    padding: 5px;
-    display: inline;
+    padding: 10px;
+    display: inline-block;
     text-decoration: none;
-
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15%;
 }
 
-.banner1>h1 {
-    
+.banner1 {
+    display: inline-block;
 }
 
-.banner1>input {
+.banner1>.titulo>h1 {
+    text-align: justify;
+    font-size: 55px;
+    width: 50%;
+    display: inline-block;
+    margin-left: 8%;
+}
+
+.banner1>.imagem>img {
+    width: 50%;
+}
+
+.banner1>.botao>input {
     border: none;
     background-color: #DA5F17;
     color: #FFFFFF;
+    font-size: 20px;
 }
 
-.banner2>h1 {
+.banner2>.imagem>h1 {
     color: #DA5F17;
     text-align: justify;
 }
 
-.banner2>p {
+.banner2>.titulo>h1 {
     text-align: justify;
+    font-size: 36px;
+    color: #DA5F17;
 }
 
-.banner3>input {
+.banner2>.texto>p {
+    text-align: justify;
+    font-size: 22px;
+}
+
+.banner3>.imagem>img {}
+
+.banner3>.titulo>h1 {
+    font-size: 33px;
+    color: #DA5F17;
+}
+
+.banner3>.texto>p {
+    font-size: 22px;
+}
+
+.banner3>.botao>input {
     border: none;
     background-color: #DA5F17;
     color: #FFFFFF;
+    font-size: 20px;
 }
 
 .banner4 {
