@@ -3,6 +3,7 @@
 }
 
 header {
+    margin-top: 1%;
     display: flex;
 }
 
@@ -23,19 +24,28 @@ header {
 }
 
 .banner1 {
-    display: inline-block;
+    display: flex;
+    width: 90%;
+}
+
+.banner1>.titulo {
+    width: 40%;
 }
 
 .banner1>.titulo>h1 {
-    text-align: justify;
+    text-align: center;
     font-size: 55px;
-    width: 50%;
+    width: 90%;
     display: inline-block;
     margin-left: 8%;
 }
 
+.banner1>.imagem {
+    width: 40%;
+}
+
 .banner1>.imagem>img {
-    width: 50%;
+    display: flex;
 }
 
 .banner1>.botao>input {
@@ -43,6 +53,8 @@ header {
     background-color: #DA5F17;
     color: #FFFFFF;
     font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .banner2>.imagem>h1 {
@@ -77,6 +89,8 @@ header {
     background-color: #DA5F17;
     color: #FFFFFF;
     font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .banner4 {
@@ -88,12 +102,33 @@ header {
     display: inline-block;
 }
 
-.banner5>h1 {
-    color: #DA5F17;
+.banner4>div>h2 {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    display: inline-block;
 }
 
-.banner5>h2 {
+.banner4>div>p {
+    font-size: 22px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.banner5>.titulo>h1 {
     color: #DA5F17;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner5>.titulo>h2 {
+    color: #DA5F17;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner5>.titulo>h2 {
+    font-size: 16px;
 }
 
 hr {
